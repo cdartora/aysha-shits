@@ -178,8 +178,8 @@ html {
 }
 
 #about-section {
-  fontFamily:'Kilo';
+  font-family:'Kilo';
   height: 100vh;
-  textAlign: center;
+  text-align: center;
   color: #403f3d;
 }

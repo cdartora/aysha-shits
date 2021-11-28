@@ -1,6 +1,7 @@
 {
   "name": "telurio",
   "version": "0.1.0",
+  "homepage": "aysha-shits/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
