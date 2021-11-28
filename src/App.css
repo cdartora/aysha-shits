@@ -1,0 +1,185 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Kilo;
+  src: url("./font/Kilo.otf") format("opentype");
+}
+
+#root {
+  background-color: #e4d8f3;
+}
+
+.top {
+  height: 20px;
+  width: 100%;
+  background-color: #403f3d;
+  position: fixed;
+  z-index: 3;
+}
+
+#top-right {
+  position: fixed;
+  z-index: 4;
+  left: 2px;
+  top: -10px;
+}
+
+.bot {
+  height: 20px;
+  width: 100%;
+  background-color: #403f3d;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+}
+
+#top-left {
+  position: fixed;
+  z-index: 4;
+  right: 0px;
+  top: -8px;
+  transform: rotate(90deg);
+}
+
+.left {
+  width: 20px;
+  height: 100%;
+  background-color: #403f3d;
+  position: fixed;
+  z-index: 3;
+}
+
+#bot-right {
+  position: fixed;
+  z-index: 4;
+  left: 2px;
+  bottom: -10px;
+  transform: scaleY(-1);
+}
+
+.right {
+  width: 20px;
+  height: 100%;
+  background-color: #403f3d;
+  position: fixed;
+  z-index: 3;
+  right: 0;
+}
+
+#bot-left {
+  position: fixed;
+  z-index: 4;
+  right: 0;
+  bottom: -8px;
+  transform: scaleX(-1) rotate(-90deg);
+}
+
+.jittering {
+  width: 100%;
+  background-image: url(./img/jittering.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.strip {
+  width: 100%;
+  margin-top: 3px;
+  position: fixed;
+  z-index: 2;
+}
+
+.hero-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 37vh;
+}
+
+.note {
+  height: 75vh;
+  position: absolute;
+  top: 16vh;
+  right: 2vw;
+  z-index: 1;
+}
+
+.nav-item {
+  z-index: 1;
+}
+
+#about {
+  position: absolute;
+  top: 52vh;
+  right: 20vw;
+  height: 3.5vh;
+}
+
+#about:hover {
+  cursor: pointer;
+}
+
+#about-selected {
+  position: absolute;
+  top: 51vh;
+  right: 17.5vw;
+  height: 5vh;
+}
+
+#work {
+  position: absolute;
+  top: 46vh;
+  right: 20vw;
+  height: 3.5vh;
+}
+
+#work:hover {
+  cursor: pointer;
+}
+
+#work-selected {
+  position: absolute;
+  top: 45vh;
+  right: 17.5vw;
+  height: 5vh;
+}
+
+#gallery {
+  position: absolute;
+  top: 40vh;
+  right: 20vw;
+  height: 3.5vh;
+}
+
+#gallery:hover {
+  cursor: pointer;
+}
+
+#gallery-selected {
+  position: absolute;
+  top: 39vh;
+  right: 17.5vw;
+  height: 5vh;
+}
+
+.section {
+  padding-top: 100px;
+  font-family:'Kilo';
+  height: 100vh;
+  text-align: center;
+  color: #403f3d;
+}
+
+#work-section {
+  font-family:'Kilo';
+  height: 100vh;
+  text-align: center;
+  color: #403f3d;
+}
+
+#about-section {
+  fontFamily:'Kilo';
+  height: 100vh;
+  textAlign: center;
+  color: #403f3d;
+}
