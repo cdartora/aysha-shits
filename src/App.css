@@ -16,12 +16,12 @@ html {
   width: 100%;
   background-color: #403f3d;
   position: fixed;
-  z-index: 3;
+  z-index: 4;
 }
 
 #top-right {
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   left: 2px;
   top: -10px;
 }
@@ -32,12 +32,12 @@ html {
   background-color: #403f3d;
   position: fixed;
   bottom: 0;
-  z-index: 3;
+  z-index: 4;
 }
 
 #top-left {
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   right: 0px;
   top: -8px;
   transform: rotate(90deg);
@@ -48,12 +48,12 @@ html {
   height: 100%;
   background-color: #403f3d;
   position: fixed;
-  z-index: 3;
+  z-index: 4;
 }
 
 #bot-right {
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   left: 2px;
   bottom: -10px;
   transform: scaleY(-1);
@@ -64,13 +64,13 @@ html {
   height: 100%;
   background-color: #403f3d;
   position: fixed;
-  z-index: 3;
+  z-index: 4;
   right: 0;
 }
 
 #bot-left {
   position: fixed;
-  z-index: 4;
+  z-index: 5;
   right: 0;
   bottom: -8px;
   transform: scaleX(-1) rotate(-90deg);
@@ -88,6 +88,30 @@ html {
   margin-top: 3px;
   position: fixed;
   z-index: 2;
+}
+
+.ticker {
+  z-index: 3;
+  position: absolute;
+  top: 32px;
+  position: fixed;
+  font-family: 'Kilo', monospace;
+}
+
+.ticker p {
+  overflow: hidden;
+  width: 150%;
+  transform: translateX(100%);
+  animation: moving 15s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .hero-title {
