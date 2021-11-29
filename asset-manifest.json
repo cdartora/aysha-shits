@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aysha-shits/static/css/main.5cc4846a.chunk.css",
-    "main.js": "/aysha-shits/static/js/main.2eeebe00.chunk.js",
-    "main.js.map": "/aysha-shits/static/js/main.2eeebe00.chunk.js.map",
+    "main.css": "/aysha-shits/static/css/main.5c309ae7.chunk.css",
+    "main.js": "/aysha-shits/static/js/main.016dd5d0.chunk.js",
+    "main.js.map": "/aysha-shits/static/js/main.016dd5d0.chunk.js.map",
     "runtime-main.js": "/aysha-shits/static/js/runtime-main.07726822.js",
     "runtime-main.js.map": "/aysha-shits/static/js/runtime-main.07726822.js.map",
     "static/js/2.393e5654.chunk.js": "/aysha-shits/static/js/2.393e5654.chunk.js",
     "static/js/2.393e5654.chunk.js.map": "/aysha-shits/static/js/2.393e5654.chunk.js.map",
     "index.html": "/aysha-shits/index.html",
-    "static/css/main.5cc4846a.chunk.css.map": "/aysha-shits/static/css/main.5cc4846a.chunk.css.map",
+    "static/css/main.5c309ae7.chunk.css.map": "/aysha-shits/static/css/main.5c309ae7.chunk.css.map",
     "static/js/2.393e5654.chunk.js.LICENSE.txt": "/aysha-shits/static/js/2.393e5654.chunk.js.LICENSE.txt",
     "static/media/App.css": "/aysha-shits/static/media/Kilo.7adbfb63.otf",
     "static/media/gallery.3d9e54ff.png": "/aysha-shits/static/media/gallery.3d9e54ff.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.07726822.js",
     "static/js/2.393e5654.chunk.js",
-    "static/css/main.5cc4846a.chunk.css",
-    "static/js/main.2eeebe00.chunk.js"
+    "static/css/main.5c309ae7.chunk.css",
+    "static/js/main.016dd5d0.chunk.js"
   ]
 }
